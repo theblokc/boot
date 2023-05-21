@@ -55,6 +55,7 @@ npx hardhat
 - [Polygonscan Mumbai](https://mumbai.polygonscan.com/)
 - [Solidity Docs](https://docs.soliditylang.org/)
 - [Ethereum Developer Docs](https://ethereum.org/en/developers/docs/)
+- [Hardhat Docs](https://hardhat.org/hardhat-runner/docs/)
 - [OpenSea](https://opensea.io/)
 - [OpenSea Testnets](https://testnets.opensea.io/)
 - [OpenZeppelin Contracts](https://www.openzeppelin.com/contracts)
