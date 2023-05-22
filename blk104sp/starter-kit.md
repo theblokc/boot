@@ -34,6 +34,7 @@ This starter kit contains the pre-requsite account and software necessary for th
 - nvm: [Windows](https://github.com/coreybutler/nvm-windows) | [Linux/Mac](https://github.com/nvm-sh/nvm])
 
 ## Hardhat Starter Kit
+- Github Link: https://github.com/theblokcmates/hardhat-starter
 - `git clone https://github.com/theblokcmates/hardhat-starter`
 
 Alternatively, you can initialize a project by:
