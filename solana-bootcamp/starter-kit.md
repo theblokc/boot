@@ -19,4 +19,4 @@ This starter kit contains the pre-requsite account and software necessary for th
 ## Development Pre-requisite
 - IDE (Preferred: [Visual Studio Code](https://code.visualstudio.com/))
 - [git](https://git-scm.com/downloads)
-- nvm: [Windows](https://github.com/coreybutler/nvm-windows) | [Linux/Mac](https://github.com/nvm-sh/nvm])
+- nvm: [Windows](https://github.com/coreybutler/nvm-windows) | [Linux/Mac](https://github.com/nvm-sh/nvm)
