@@ -20,13 +20,21 @@ This starter kit contains the pre-requsite account and software necessary for th
 The bootcamp requires fundamental understanding of the following software development concepts and tooling.
 Here are some crash course videos to get you started with these:
 - [Command line](https://www.youtube.com/watch?v=uwAqEzhyjtw)
-- [Git](https://www.youtube.com/watch?v=mJ-qvsxPHpY)
+- [Git and GitHub](https://www.youtube.com/watch?v=mJ-qvsxPHpY)
 - [Rust programming language](https://www.youtube.com/playlist?list=PLzMcBGfZo4-nyLTlSRBvo0zjSnCnqjHYQ)
 - [GitHub Codespace](https://www.youtube.com/watch?v=D_5T6KMTRb8)
 
-> Note:  
+> Note: If you have found better crash course videos, please submit a change PR so we can take a look at it. Thank you!
 
 ## Development Pre-requisite
 - IDE (Preferred: [Visual Studio Code](https://code.visualstudio.com/))
 - [git](https://git-scm.com/downloads)
 - nvm: [Windows](https://github.com/coreybutler/nvm-windows) | [Linux/Mac](https://github.com/nvm-sh/nvm)
+
+### VS Code Extensions
+Here are some VS Code Extensions that could help you have a better development experience.
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
