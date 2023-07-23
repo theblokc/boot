@@ -1,6 +1,6 @@
 # Starter Kits for The BLOKC Program and Courses
 <a href="https://theblokc.com"/>
-<img alt="Visit The BLOKC" src="https://theblokc.com/logos/logo.png" style="height: 100px; width:100px;" />
+<img alt="Visit The BLOKC" src="https://avatars.githubusercontent.com/u/116444255?" style="height: 100px; width:100px;" />
 </a>
 
 Programs:
