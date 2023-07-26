@@ -19,12 +19,20 @@ This starter kit contains the pre-requsite account and software necessary for th
 ## Pre-requisite knowledge
 The bootcamp requires fundamental understanding of the following software development concepts and tooling.
 Here are some crash course videos to get you started with these:
+- [TypeScript Programming language](https://www.youtube.com/watch?v=BCg4U1FzODs)
 - [Command line](https://www.youtube.com/watch?v=uwAqEzhyjtw)
 - [Git and GitHub](https://www.youtube.com/watch?v=mJ-qvsxPHpY)
 - [Rust programming language](https://www.youtube.com/playlist?list=PLzMcBGfZo4-nyLTlSRBvo0zjSnCnqjHYQ)
 - [GitHub Codespace](https://www.youtube.com/watch?v=D_5T6KMTRb8)
 
 > Note: If you have found better crash course videos, please submit a change PR so we can take a look at it. Thank you!
+
+## For Windows Users
+As per our experience, we would prefer using machines with either Linux or MacOS.
+If you are a Windows user, we would suggest enabling WSL on your Windows laptop or run a virtual machine.
+- [Install Linux on Windows with WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
+- [Set up a WSL development environment](https://learn.microsoft.com/en-us/windows/wsl/setup/environment)
+- [Remote Explorer - VSCode Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer)
 
 ## Development Pre-requisite
 - IDE (Preferred: [Visual Studio Code](https://code.visualstudio.com/))
