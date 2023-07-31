@@ -6,3 +6,7 @@
 Programs:
 - [BLKSP104](./blk104sp/starter-kit.md)
 - [Solana Developers Bootcamp](./solana-bootcamp/starter-kit.md)
+
+## The BLOKC
+- [Join our Discord server](https://join.theblokc.com/)
+- [Our course offerings](https://theblokc.com/programs)

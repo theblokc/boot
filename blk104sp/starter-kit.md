@@ -11,14 +11,14 @@ This starter kit contains the pre-requsite account and software necessary for th
 - Browser: Chrome
 
 ## Accounts and tooling
-- [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+- [GitHub](https://github.com/)
+- [Metamask for Browser](https://metamask.io/download/)
 - [Infura Account](https://app.infura.io/register)
 - [Alchemy Account](https://alchemy.com/?r=TQ0MjA3MDI1MTM3M)
 - [Etherscan](https://etherscan.io/register)
 
 ## Faucets
-### Goerli (ETH PoS Testnet)
-- [Alchemy Goerli Faucet](https://goerlifaucet.com/)
+Request test ETH from the ff. faucets
 
 ### Sepolia (ETH PoS Testnet)
 - [Infura Faucet](https://www.infura.io/faucet/sepolia)
@@ -33,36 +33,34 @@ This starter kit contains the pre-requsite account and software necessary for th
 - [git](https://git-scm.com/downloads)
 - nvm: [Windows](https://github.com/coreybutler/nvm-windows) | [Linux/Mac](https://github.com/nvm-sh/nvm)
 
+## Initializing a Hardhat project
+Follow the ff to initialize a new Hardhat project
+```sh
+mkdir my-hardhat-project
+cd my-hardhat-project
+npm init -y
+npm i --save hardhat ethers @openzeppelin/contracts dotenv
+
+
+# Initialize a new hardhat project
+npx hardhat
+# Create either JavaScript or TypeScript (recommended) project
+# Hardhat project root: <Press enter>
+# Do you want to add a .gitignore: y
+# Install dependencies: y
+```
+
 ## Hardhat Starter Kit
 - Github Link: https://github.com/theblokcmates/hardhat-starter
 - `git clone https://github.com/theblokcmates/hardhat-starter`
 
-Alternatively, you can initialize a project by:
-```sh
-mkdir my-hardhat-project
-npm i hardhat --save
-npm i @openzeppelin/contracts
-npm i ethers
-npm i dotenv
-npx hardhat
-# Accept defaults
-```
-
-## Useful bookmarks
-- [Etherscan](https://etherscan.io/)
-- [Etherscan Goerli](https://goerli.etherscan.io/)
-- [Etherscan Sepolia](https://sepolia.etherscan.io/)
-- [Polygonscan](https://polygonscan.com/)
-- [Polygonscan Mumbai](https://mumbai.polygonscan.com/)
-- [Solidity Docs](https://docs.soliditylang.org/)
-- [Ethereum Developer Docs](https://ethereum.org/en/developers/docs/)
-- [Hardhat Docs](https://hardhat.org/hardhat-runner/docs/)
-- [OpenSea](https://opensea.io/)
-- [OpenSea Testnets](https://testnets.opensea.io/)
-- [OpenZeppelin Contracts](https://www.openzeppelin.com/contracts)
-- [Moralis API Docs](https://docs.moralis.io/)
-- [Ethers JS Docs](https://docs.ethers.org/v5/)
-- [Wagmi JS Docs](https://wagmi.sh/)
+### VS Code Extensions
+Here are some VS Code Extensions that could help you have a better development experience.
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ## Contribute
 For change request, please clone and submit pull-request. Or e-mail at mark@theblokc.com
