@@ -18,6 +18,7 @@ It is recommended to use a machine that is running either Linux or MacOS
 - [Alchemy Account](https://alchemy.com/?r=TQ0MjA3MDI1MTM3M)
 - [Etherscan](https://etherscan.io/register)
 - [Rust & Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+- [Cargo Stylus CLI](https://github.com/OffchainLabs/cargo-stylus)
 
 ## Pre-requisite knowledge
 The bootcamp requires fundamental understanding of the following software development concepts and tooling.
@@ -44,8 +45,16 @@ Request test ETH from the ff. faucets
 - [Infura Faucet](https://www.infura.io/faucet/sepolia)
 - [Alchemy Sepolia Faucet](https://sepoliafaucet.com/)
 
+## Bridging Tokens
+- You can bridge assets between Sepolia and Arbitrum Sepolia
+- You can bridge assets between Arbitrum Sepolia and Arbitrum Stylus
+- You can't bridge Sepolia and Arbitrum Stylus.
+
 ### Bridge Sepolia to Arbitrum Sepolia
 Bridge - https://bridge.arbitrum.io/?destinationChain=arbitrum-sepolia&sourceChain=sepolia
+
+### Bridge Arbitrum Sepolia to Arbitrum Stylus Testnet
+Bridge - https://bridge.arbitrum.io/?destinationChain=arbitrum-sepolia&sourceChain=stylus-testnet
 
 ## Development Pre-requisite
 - IDE (Preferred: [Visual Studio Code](https://code.visualstudio.com/))
@@ -80,6 +89,12 @@ npx hardhat
 ## Hardhat Starter Kit
 - Github Link: https://github.com/theblokcmates/hardhat-starter
 - `git clone https://github.com/theblokcmates/hardhat-starter`
+
+## Initializing a Stylus Project
+```sh
+cargo stylus new <project-name>
+cd <project-name>
+```
 
 ## Contribute
 For change request, please clone and submit pull-request. Or e-mail at mark@theblokc.com
