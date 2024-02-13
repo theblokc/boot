@@ -4,7 +4,7 @@
 </a>
 
 # 
-This starter kit contains the pre-requsite account and software necessary for the BLK104SP program.
+This starter kit contains the pre-requsite account and software necessary for the Arbitrum Developers Bootcamp.
 
 ## Machine Profile
 It is recommended to use a machine that is running either Linux or MacOS
@@ -16,7 +16,7 @@ It is recommended to use a machine that is running either Linux or MacOS
 - [Metamask for Browser](https://metamask.io/download/)
 - [Infura Account](https://app.infura.io/register)
 - [Alchemy Account](https://alchemy.com/?r=TQ0MjA3MDI1MTM3M)
-- [Etherscan](https://etherscan.io/register)
+- [Arbiscan](https://arbiscan.io/register)
 - [Rust & Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
 - [Cargo Stylus CLI](https://github.com/OffchainLabs/cargo-stylus)
 
@@ -40,21 +40,18 @@ If you are a Windows user, we would suggest enabling WSL on your Windows laptop 
 
 ## Faucets
 Request test ETH from the ff. faucets
-
-### Sepolia (ETH PoS Testnet)
-- [Infura Faucet](https://www.infura.io/faucet/sepolia)
+- [Alchemy Arbitrum Sepolia Faucet](https://arbitrum-faucet.com/)
 - [Alchemy Sepolia Faucet](https://sepoliafaucet.com/)
+- [Infura Faucet](https://www.infura.io/faucet/sepolia)
 
 ## Bridging Tokens
 - You can bridge assets between Sepolia and Arbitrum Sepolia
 - You can bridge assets between Arbitrum Sepolia and Arbitrum Stylus
 - You can't bridge Sepolia and Arbitrum Stylus.
 
-### Bridge Sepolia to Arbitrum Sepolia
-Bridge - https://bridge.arbitrum.io/?destinationChain=arbitrum-sepolia&sourceChain=sepolia
-
-### Bridge Arbitrum Sepolia to Arbitrum Stylus Testnet
-Bridge - https://bridge.arbitrum.io/?destinationChain=arbitrum-sepolia&sourceChain=stylus-testnet
+### Bridges
+- [Sepolia to Arbitrum Sepolia](https://bridge.arbitrum.io/?destinationChain=arbitrum-sepolia&sourceChain=sepolia)
+- [Arbitrum Sepolia to Arbitrum Stylus Testnet](https://bridge.arbitrum.io/?destinationChain=arbitrum-sepolia&sourceChain=stylus-testnet)
 
 ## Development Pre-requisite
 - IDE (Preferred: [Visual Studio Code](https://code.visualstudio.com/))
@@ -63,32 +60,13 @@ Bridge - https://bridge.arbitrum.io/?destinationChain=arbitrum-sepolia&sourceCha
 
 ### VS Code Extensions
 Here are some VS Code Extensions that could help you have a better development experience.
+- [Solidity](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity)
+- [Solidity Inspector](https://marketplace.visualstudio.com/items?itemName=PraneshASP.vscode-solidity-inspector&fbclid=IwAR06u7pxaz64pHVdIi4EJxpurHagspg2sEjHusrTDdlkoYC38iKMiRqhgH0)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-## Initializing a Hardhat project
-Follow the ff to initialize a new Hardhat project
-```sh
-mkdir my-hardhat-project
-cd my-hardhat-project
-npm init -y
-npm i --save hardhat ethers @openzeppelin/contracts dotenv
-
-
-# Initialize a new hardhat project
-npx hardhat
-# Create either JavaScript or TypeScript (recommended) project
-# Hardhat project root: <Press enter>
-# Do you want to add a .gitignore: y
-# Install dependencies: y
-```
-
-## Hardhat Starter Kit
-- Github Link: https://github.com/theblokcmates/hardhat-starter
-- `git clone https://github.com/theblokcmates/hardhat-starter`
 
 ## Initializing a Stylus Project
 ```sh
